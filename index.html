@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width">
   <title>Style with Css</title>
     <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua&display=swap');
+
       html{
         background-color: #63aaf5;
       }
@@ -13,14 +15,22 @@
           background-color: #fff;
           max-width:960px;
           width:90%;
-          padding:1%;
+          margin: auto;
+          padding:2%;
         }
       footer{
         text-align: center;
         clear: both;
       }
+      .page-header{
+        background-color: antiquewhite;
+        text-align: center;
+        font-family:'Inknut Antiqua',serif;
+        text-shadow: 4px 4px 4px #f0bbbb;
+      }
       nav {
         text-align: center;
+        color: black;
       }
       nav ul{
         list-style: none;
@@ -68,7 +78,7 @@
 </head>
 
 <body>
-  <h1> Stylin with Biniyam G </h1>
+  <h1 class="page-header"> Stylin with Biniyam G </h1>
   <nav>
     <ul>
       <li> <a href='#'>Link 1</a></li>
